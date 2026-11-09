@@ -4,8 +4,14 @@
   "type": "module",
   "scripts": {
     "test": "vitest run exercise/",
+    "solution": "vitest run exercise-solution/",
     "demo": "vitest run demo/06-test-double",
-    "solution": "vitest run exercise-solution/"
+    "1": "vitest run demo/01-red",
+    "2": "vitest run demo/02-green-fake",
+    "3": "vitest run demo/03-red-more-tests",
+    "4": "vitest run demo/04-green-real",
+    "5": "vitest run demo/05-refactor",
+    "6": "vitest run demo/06-test-double"
   },
   "devDependencies": {
     "vitest": "^5.0.4"
