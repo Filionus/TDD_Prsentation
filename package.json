@@ -1,0 +1,13 @@
+{
+  "name": "tdd-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run exercise/",
+    "demo": "vitest run demo/06-test-double",
+    "solution": "vitest run exercise-solution/"
+  },
+  "devDependencies": {
+    "vitest": "^5.0.4"
+  }
+}
